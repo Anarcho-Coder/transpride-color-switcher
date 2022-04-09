@@ -76,18 +76,18 @@ Some colors will not show up on twitch, as dark colors are clipped to more color
 - Blue
 - BlueViolet
 - CadetBlue
-- Chocolate
-- Coral
-- DodgerBlue
-- Firebrick
+- Chocolate #c96b28
+- Coral #ff7f4e
+- DodgerBlue #359bf1
+- Firebrick #b22222
 - GoldenRod
 - Green
-- HotPink
-- OrangeRed
+- HotPink #ff69b4
+- OrangeRed #ff581b
 - Red
 - SeaGreen
-- SpringGreen
-- YellowGreen. 
+- SpringGreen #00ff7f
+- YellowGreen #b5ff00
 
 Adding your own channel
 -----------------------------------------------------
