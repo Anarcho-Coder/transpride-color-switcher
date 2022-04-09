@@ -38,14 +38,18 @@ Install node dependencies
 
 ![image](https://user-images.githubusercontent.com/103317937/162575415-53d3dac3-5494-4248-b4f8-05fa02ae3120.png)
 
---Now for the fun bit--
-Changing colours
+--------------------
+Now for the fun bit
+--------------------
 
+Changing colours
+---------------------------------------------------------------
 Change index.js file however you need to, nano or notepad.
 
 remove the // in front of a colour line to activate it, only one can be activated at a time
 
 the #ffffff is the colour, use https://www.color-hex.com/ to pick your own colour
+
 
 e.g.
 
@@ -58,3 +62,35 @@ or
 let colors = ["#ff0000","#ff9c00","#eeff00","#1eff00","#00beff"]; // Rainbow
 
 //let colors = ["#5BCEFA", "#F5A9B8", "#FFFFFF", "#F5A9B8", "#5BCEFA"]; // Trans Pride
+
+
+Adding your own channel
+-----------------------------------------------------
+In index.js, change this
+
+channels: [
+        "SlowQueer",
+        "HasanAbi",
+        "AzureMako",
+        "JoanAtoms",
+        "ThoughtSlime",
+        "MafiaJinx",
+        "Keffals",
+        "adi_dev"
+    ]
+    
+    to 
+   
+channels: [
+        "SlowQueer",
+        "HasanAbi",
+        "AzureMako",
+        "JoanAtoms",
+        "ThoughtSlime",
+        "MafiaJinx",
+        "Keffals",
+        "adi_dev",
+        "your_username_here"
+    ]
+remebering to keep the username in "quotation marks" and adding a comma , after every new entry. 
+
