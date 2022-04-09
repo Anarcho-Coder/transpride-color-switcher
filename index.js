@@ -49,7 +49,11 @@ if (argv.scheme == new String("rainbow").valueOf()) {
 }
         else if (argv.scheme == new String("kkona").valueOf()) {
                 colors = ["#bf0a30","#ffffff","#002868"]; //KKona
-}       else {
+}       
+        else if (argv.scheme == new String("trans").valueOf()) {
+                colors = ["#5BCEFA","#F5A9B8","#FFFFFF","#F5A9B8","#5BCEFA"]; //KKona
+}
+        else {
                 colors = ["#5BCEFA","#F5A9B8","#FFFFFF","#F5A9B8","#5BCEFA"]; // Trans Pride
 }
 
