@@ -22,7 +22,7 @@ const TMI_OPTIONS = {
         "ThoughtSlime",
         "MafiaJinx",
         "Keffals",
-        "adi_dev"
+         "adi_dev"
     ]
 }
 
