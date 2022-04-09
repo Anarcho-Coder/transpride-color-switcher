@@ -29,6 +29,7 @@ Install node dependencies
     
     $ npm install
     $ npm i tmi.js
+    $ npm i yargs
     
  Edit the auth.js file with any text editor (save after)
     - Windows -> notepad is fine
@@ -49,23 +50,19 @@ Changing colours
 ---------------------------------------------------------------
 Change index.js file however you need to, nano or notepad.
 
-remove the // in front of a colour line to activate it, only one can be activated at a time
-
-the #ffffff is the colour, use https://www.color-hex.com/ to pick your own colour
-
+Copy and paste the else if line below into the code below the if statement and above the else statement including all brackets:
 
 e.g.
 
-//let colors = ["#ff0000","#ff9c00","#eeff00","#1eff00","#00beff"]; // Rainbow
+else if (argv.scheme == new String("grey").valueOf()) {
+                colors = ["#ffffff","#d9d9d9","#b0b0b0","#878787","#575757"]; //Greyname Pride
+}
 
-let colors = ["#5BCEFA", "#F5A9B8", "#FFFFFF", "#F5A9B8", "#5BCEFA"]; // Trans Pride
+The script can then be run like so; node index.js --scheme="grey" and will use the hex colors supplied within the brackets.
 
-or 
+Some colors will not show up on twitch, as dark colors are clipped to more colorful versions of that color. If you do not have Twitch Prime or Turbo, you will need to use color names such as the following standard user colors below.
 
-let colors = ["#ff0000","#ff9c00","#eeff00","#1eff00","#00beff"]; // Rainbow
-
-//let colors = ["#5BCEFA", "#F5A9B8", "#FFFFFF", "#F5A9B8", "#5BCEFA"]; // Trans Pride
-
+Blue, BlueViolet, CadetBlue, Chocolate, Coral, DodgerBlue, Firebrick, GoldenRod, Green, HotPink, OrangeRed, Red, SeaGreen, SpringGreen, YellowGreen. 
 
 Adding your own channel
 -----------------------------------------------------
@@ -79,7 +76,10 @@ channels: [
         "ThoughtSlime",
         "MafiaJinx",
         "Keffals",
-        "adi_dev"
+        "adi_dev",
+        "hasansecurityguard",
+        "grfnn",
+        "dbutters"
     ]
     
 to 
@@ -93,6 +93,9 @@ channels: [
         "MafiaJinx",
         "Keffals",
         "adi_dev",
+        "hasansecurityguard",
+        "grfnn",
+        "dbutters",
         "your_username_here"
     ]
     
