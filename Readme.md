@@ -5,7 +5,8 @@ Get auth token: https://twitchapps.com/tmi/
 
 Get Node.js: https://nodejs.org/en/ (when installing remember to allowing the set PATH option)
     
-    - ubuntu/debian -> $ sudo apt install nodejs
+    - ubuntu/debian -> $ sudo apt install curl
+                       $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
     - fedora -> $ sudo yum install nodejs
     - arch -> You're 1337 you don't need README
 
@@ -29,6 +30,7 @@ Install node dependencies
     
     $ npm install
     $ npm i tmi.js
+    $ npm i yargs
     
  Edit the auth.js file with any text editor (save after)
     - Windows -> notepad is fine
@@ -49,23 +51,29 @@ Changing colours
 ---------------------------------------------------------------
 Change index.js file however you need to, nano or notepad.
 
-remove the // in front of a colour line to activate it, only one can be activated at a time
-
-the #ffffff is the colour, use https://www.color-hex.com/ to pick your own colour
-
+Copy and paste the else if line below into the code below the if statement and above the else statement including all brackets:
 
 e.g.
 
-//let colors = ["#ff0000","#ff9c00","#eeff00","#1eff00","#00beff"]; // Rainbow
+else if (argv.scheme == new String("grey").valueOf()) {
+                colors = ["#ffffff","#d9d9d9","#b0b0b0","#878787","#575757"]; //Greyname Pride
+}
 
-let colors = ["#5BCEFA", "#F5A9B8", "#FFFFFF", "#F5A9B8", "#5BCEFA"]; // Trans Pride
+The script can then be run e.g. below, and will use the hex colors supplied within the brackets; 
 
-or 
+---------------------------------------
+$ node index.js --scheme="grey" 
+---------------------------------------
+List of current schemes, trans is the default
+- rainbow
+- grey
+- ukraine
+- sa
+- kkona
 
-let colors = ["#ff0000","#ff9c00","#eeff00","#1eff00","#00beff"]; // Rainbow
+Some colors will not show up on twitch, as dark colors are clipped to more colorful versions of that color. If you do not have Twitch Prime or Turbo, you will need to use color names such as the following standard user colors below.
 
-//let colors = ["#5BCEFA", "#F5A9B8", "#FFFFFF", "#F5A9B8", "#5BCEFA"]; // Trans Pride
-
+Blue, BlueViolet, CadetBlue, Chocolate, Coral, DodgerBlue, Firebrick, GoldenRod, Green, HotPink, OrangeRed, Red, SeaGreen, SpringGreen, YellowGreen. 
 
 Adding your own channel
 -----------------------------------------------------
@@ -79,7 +87,10 @@ channels: [
         "ThoughtSlime",
         "MafiaJinx",
         "Keffals",
-        "adi_dev"
+        "adi_dev",
+        "hasansecurityguard",
+        "grfnn",
+        "dbutters"
     ]
     
 to 
@@ -93,8 +104,11 @@ channels: [
         "MafiaJinx",
         "Keffals",
         "adi_dev",
+        "hasansecurityguard",
+        "grfnn",
+        "dbutters",
         "your_username_here"
     ]
     
-remembering to keep the username in "quotation marks" and adding a comma , after every new entry. 
+remembering to keep the username in "quotation marks" and adding a comma , after every new entry except the final one. 
 
