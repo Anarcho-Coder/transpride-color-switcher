@@ -65,6 +65,7 @@ The script can then be run e.g. below, and will use the hex colors supplied with
 $ node index.js --scheme="grey" 
 ---------------------------------------
 List of current schemes, trans is the default
+- trans
 - rainbow
 - grey
 - ukraine
