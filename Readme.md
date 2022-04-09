@@ -73,7 +73,21 @@ List of current schemes, trans is the default
 
 Some colors will not show up on twitch, as dark colors are clipped to more colorful versions of that color. If you do not have Twitch Prime or Turbo, you will need to use color names such as the following standard user colors below.
 
-Blue, BlueViolet, CadetBlue, Chocolate, Coral, DodgerBlue, Firebrick, GoldenRod, Green, HotPink, OrangeRed, Red, SeaGreen, SpringGreen, YellowGreen. 
+- Blue
+- BlueViolet
+- CadetBlue
+- Chocolate
+- Coral
+- DodgerBlue
+- Firebrick
+- GoldenRod
+- Green
+- HotPink
+- OrangeRed
+- Red
+- SeaGreen
+- SpringGreen
+- YellowGreen. 
 
 Adding your own channel
 -----------------------------------------------------
