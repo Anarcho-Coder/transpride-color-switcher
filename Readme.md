@@ -104,5 +104,5 @@ channels: [
         "your_username_here"
     ]
     
-remembering to keep the username in "quotation marks" and adding a comma , after every new entry. 
+remembering to keep the username in "quotation marks" and adding a comma , after every new entry except the final one. 
 
