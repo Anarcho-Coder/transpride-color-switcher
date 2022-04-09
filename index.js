@@ -1,8 +1,8 @@
+Separate auth from git upload with gitignore
+import {BOT_NAME,TMI_OAUTH} from "./auth";
 // add reference to the TMI library
 const TMI = require('tmi.js');
 // Bot Name and Password;
-const BOT_NAME = "USERNAME_HERE";
-const TMI_OAUTH = "OATH_TOKEN_HERE"; 
 const TMI_OPTIONS = {
 	connection:{
 		reconnect: true
