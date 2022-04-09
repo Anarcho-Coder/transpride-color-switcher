@@ -36,16 +36,11 @@ Install node dependencies
     - Windows -> notepad is fine
     
     - Linux -> $ nano auth.js -> (edit) -> Ctrl + O
-    
-   Run the project
-   
-   $ npm start
-
-![image](https://user-images.githubusercontent.com/103317937/162575415-53d3dac3-5494-4248-b4f8-05fa02ae3120.png)
 
 --------------------
 Now for the fun bit
 --------------------
+![image](https://user-images.githubusercontent.com/103317937/162575415-53d3dac3-5494-4248-b4f8-05fa02ae3120.png)
 
 Changing colours
 ---------------------------------------------------------------
