@@ -45,6 +45,8 @@ Change index.js file however you need to, nano or notepad.
 
 remove the // in front of a colour line to activate it, only one can be activated at a time
 
+the #ffffff is the colour, use https://www.color-hex.com/ to pick your own colour
+
 e.g.
 
 //let colors = ["#ff0000","#ff9c00","#eeff00","#1eff00","#00beff"]; // Rainbow
