@@ -5,7 +5,8 @@ Get auth token: https://twitchapps.com/tmi/
 
 Get Node.js: https://nodejs.org/en/ (when installing remember to allowing the set PATH option)
     
-    - ubuntu/debian -> $ sudo apt install nodejs
+    - ubuntu/debian -> $ sudo apt install curl
+                       $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
     - fedora -> $ sudo yum install nodejs
     - arch -> You're 1337 you don't need README
 
