@@ -79,7 +79,7 @@ channels: [
         "adi_dev"
     ]
     
-    to 
+to 
    
 channels: [
         "SlowQueer",
