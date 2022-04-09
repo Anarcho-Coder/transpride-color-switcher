@@ -8,6 +8,7 @@ $ symbol means this is a terminal command, dont write the $
 
 Clone this repo:
     Windows - Github desktop
+    
     Linux - Install Git
           - $ git clone https://github.com/Anarcho-Coder/transpride-color-switcher.git
           
