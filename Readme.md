@@ -4,7 +4,9 @@
 Get auth token: https://twitchapps.com/tmi/
 
 Get Node.js: https://nodejs.org/en/ (when installing remember to allowing the set PATH option)
-    - (ubuntu/debian $ sudo apt install nodejs, fedora $ sudo yum install nodejs)
+    
+    - ubuntu/debian -> $ sudo apt install nodejs
+    - fedora -> $ sudo yum install nodejs
 
 $ symbol means this is a terminal command, dont write the $
 
