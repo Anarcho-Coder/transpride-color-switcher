@@ -7,6 +7,7 @@ Get Node.js: https://nodejs.org/en/ (when installing remember to allowing the se
     
     - ubuntu/debian -> $ sudo apt install nodejs
     - fedora -> $ sudo yum install nodejs
+    - arch -> You're 1337 you don't need README
 
 $ symbol means this is a terminal command, dont write the $
 
