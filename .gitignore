@@ -105,3 +105,4 @@ dist
 
 #ignore auth file
 auth.js
+.DS_Store
