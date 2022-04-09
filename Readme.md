@@ -13,6 +13,7 @@ Get Node.js: https://nodejs.org/en/ (when installing remember to allowing the se
 $ symbol means this is a terminal command, dont write the $
 
 Clone this repo:
+
     Linux - Install Git (ubuntu/debian $ sudo apt install git, fedora $ sudo yum install git)
           - $ git clone https://github.com/Anarcho-Coder/transpride-color-switcher.git
           
