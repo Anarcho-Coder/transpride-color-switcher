@@ -48,9 +48,11 @@ remove the // in front of a colour line to activate it, only one can be activate
 e.g.
 
 //let colors = ["#ff0000","#ff9c00","#eeff00","#1eff00","#00beff"]; // Rainbow
+
 let colors = ["#5BCEFA", "#F5A9B8", "#FFFFFF", "#F5A9B8", "#5BCEFA"]; // Trans Pride
 
 or 
 
 let colors = ["#ff0000","#ff9c00","#eeff00","#1eff00","#00beff"]; // Rainbow
+
 //let colors = ["#5BCEFA", "#F5A9B8", "#FFFFFF", "#F5A9B8", "#5BCEFA"]; // Trans Pride
