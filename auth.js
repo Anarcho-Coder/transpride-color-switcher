@@ -1,5 +1,5 @@
-const BOT_NAME = "popopoppppoooeeeepoep";
-const TMI_OAUTH = "oauth:ppoiasdoadada";
+const BOT_NAME = "USERNAME_HERE";
+const TMI_OAUTH = "AUTH_KEY_HERE";
 
 exports.BOT_NAME = BOT_NAME;
 exports.TMI_OAUTH = TMI_OAUTH;
