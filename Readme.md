@@ -90,7 +90,8 @@ channels: [
         "adi_dev",
         "hasansecurityguard",
         "grfnn",
-        "dbutters"
+        "dbutters",
+        "lithium_flowerhd"
     ]
     
 to 
@@ -107,6 +108,7 @@ channels: [
         "hasansecurityguard",
         "grfnn",
         "dbutters",
+        "lithium_flowerhd",
         "your_username_here"
     ]
     
