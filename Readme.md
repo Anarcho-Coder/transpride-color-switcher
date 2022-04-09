@@ -13,13 +13,14 @@ Get Node.js: https://nodejs.org/en/ (when installing remember to allowing the se
 $ symbol means this is a terminal command, dont write the $
 
 Clone this repo:
-    Windows - Github desktop https://desktop.github.com/
-    
-    ![image](https://user-images.githubusercontent.com/103317937/162592385-cf7e5800-2842-4b1c-8e97-4dba81e2b116.png)
-
     Linux - Install Git (ubuntu/debian $ sudo apt install git, fedora $ sudo yum install git)
           - $ git clone https://github.com/Anarcho-Coder/transpride-color-switcher.git
           
+Windows - Github desktop https://desktop.github.com/
+    
+![image](https://user-images.githubusercontent.com/103317937/162592385-cf7e5800-2842-4b1c-8e97-4dba81e2b116.png)
+
+    
 Open terminal to cloned repo
     Windows - Open folder with code (you need to see the .js files)
             - Type powershell in the file explorer nav bar
