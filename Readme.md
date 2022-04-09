@@ -63,6 +63,14 @@ The script can then be run like so;
 ---------------------------------------
 $ node index.js --scheme="grey" 
 ---------------------------------------
+List of current schemes, trans is the default
+- rainbow
+- grey
+- ukraine
+- sa
+- kkona
+
+
 and will use the hex colors supplied within the brackets.
 
 Some colors will not show up on twitch, as dark colors are clipped to more colorful versions of that color. If you do not have Twitch Prime or Turbo, you will need to use color names such as the following standard user colors below.
