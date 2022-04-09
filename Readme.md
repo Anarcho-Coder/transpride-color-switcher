@@ -4,9 +4,18 @@ Use https://twitchapps.com/tmi/ to get an OAuth token.
 Edit index.js in your text editor of choice. Replace *USERNAME_HERE* 
 with your username and *OATH_TOKEN_HERE* with the token generated from 
 https://twitchapps.com/tmi/. if you have node.js installed you can run 
-the program with {node index.js}, if you have npm installed you can run the 
-program with {npm start}. You can use pkg to make an executable file using 
-{pkg index.js} 
+the program with 
+{
+    node index.js
+}
+if you have npm installed you can run the program with 
+{
+    npm start
+}
+You can use pkg to make an executable file using 
+{
+    pkg index.js
+} 
 
 
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠻⠝⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
