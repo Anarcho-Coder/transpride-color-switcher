@@ -29,7 +29,8 @@ const TMI_OPTIONS = {
         "adi_dev",
         "hasansecurityguard",
         "grfnn",
-        "dbutters"
+        "dbutters",
+        "lithium_flowerhd"
     ]
 }
 
