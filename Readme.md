@@ -26,6 +26,7 @@ Install node dependencies
     
  Edit the auth.js file with any text editor (save after)
     - Windows -> notepad is fine
+    
     - Linux -> $ nano auth.js -> (edit) -> Ctrl + O
     
    Run the project
