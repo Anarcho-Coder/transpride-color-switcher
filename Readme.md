@@ -61,7 +61,7 @@ else if (argv.scheme == new String("grey").valueOf()) {
 
 The script can then be run like so; 
 
-$ node index.js --scheme="grey" 
+- $ node index.js --scheme="grey" 
 
 and will use the hex colors supplied within the brackets.
 
