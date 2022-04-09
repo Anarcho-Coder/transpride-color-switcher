@@ -59,7 +59,11 @@ else if (argv.scheme == new String("grey").valueOf()) {
                 colors = ["#ffffff","#d9d9d9","#b0b0b0","#878787","#575757"]; //Greyname Pride
 }
 
-The script can then be run like so; node index.js --scheme="grey" and will use the hex colors supplied within the brackets.
+The script can then be run like so; 
+
+$ node index.js --scheme="grey" 
+
+and will use the hex colors supplied within the brackets.
 
 Some colors will not show up on twitch, as dark colors are clipped to more colorful versions of that color. If you do not have Twitch Prime or Turbo, you will need to use color names such as the following standard user colors below.
 
