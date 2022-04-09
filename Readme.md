@@ -92,5 +92,6 @@ channels: [
         "adi_dev",
         "your_username_here"
     ]
+    
 remembering to keep the username in "quotation marks" and adding a comma , after every new entry. 
 
