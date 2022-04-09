@@ -1,2 +1,6 @@
-export const BOT_NAME = "USERNASME_HERE";
-export const TMI_OAUTH = "AUTH_TOKEN_HERE"
+const BOT_NAME = "USERNASME_HERE";
+const TMI_OAUTH = "AUTH_TOKEN_HERE";
+
+exports.BOT_NAME = BOT_NAME;
+exports.TMI_OAUTH = TMI_OAUTH;
+
