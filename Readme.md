@@ -9,7 +9,7 @@ $ symbol means this is a terminal command, dont write the $
 Clone this repo:
     Windows - Github desktop
     
-    Linux - Install Git (ubuntu/debian sudo apt install git, fedora sudo yum install git)
+    Linux - Install Git (ubuntu/debian $ sudo apt install git, fedora $ sudo yum install git)
           - $ git clone https://github.com/Anarcho-Coder/transpride-color-switcher.git
           
 Open terminal to cloned repo
