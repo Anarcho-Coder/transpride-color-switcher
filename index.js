@@ -34,27 +34,65 @@ const TMI_OPTIONS = {
     ]
 }
 
+let userArg;
+
+//Make user color scheme case insensitive
+
+if (argv.scheme == undefined) {
+        userArg = false
+}
+	else {
+		userArg = argv.scheme.toLowerCase();
+}
+
+let pog = 0;
+let consoleColor1;
+let consoleColor2;
+let specialMsg;
+
 //Check for arg can be used like "node index.js --scheme="rainbow" " default is trans gigachad
-if (argv.scheme == new String("rainbow").valueOf()) {
+if (userArg == new String("rainbow").valueOf()) {
         colors = ["#ff0000","#ff9c00","#eeff00","#1eff00","#00beff"]; // Rainbow
+		consoleColor1 = "\x1b[91m%s\x1b[0m"
+                consoleColor2 = "\x1b[95m%s\x1b[0m"
+		specialMsg = "Gayge <3";
 }
-        else if (argv.scheme == new String("grey").valueOf()) {
+        else if (userArg == new String("grey").valueOf()) {
                 colors = ["#ffffff","#d9d9d9","#b0b0b0","#878787","#575757"]; //Greyname Pride
+		consoleColor1 = ("\x1b[90m%s\x1b[0m");
+                consoleColor2 = ("\x1b[90m%s\x1b[0m");
+		specialMsg = "I LOOOOOOOVE GREEEY NAMES!! GREEEEEEEEEY!";
 }
-        else if (argv.scheme == new String("ukraine").valueOf()) {
+        else if (userArg == new String("ukraine").valueOf()) {
                 colors = ["#005BBB","#FFD500"]; //ukraine bebela
+		consoleColor1 = ("\x1b[93m%s\x1b[0m");
+                consoleColor2 = ("\x1b[94m%s\x1b[0m");
+		specialMsg = "Slava Ukraini <3";
 }
-        else if (argv.scheme == new String("sa").valueOf()) {
-                colors = ["#007749","#000000","#FFFFFF","#FFB81C","#E03C31","#001489"]; //SouthAfricanPride
+        else if (userArg == new String("sa").valueOf()) {
+                colors = ["#007749","#000000","#FFFFFF","#FFB81C","#E03C31","#o01489"]; //SouthAfricanPride
+		consoleColor1 = ("\x1b[32m%s\x1b[0m");
+                consoleColor2 = ("\x1b[91m%s\x1b[0m");
+                specialMsg = "Fackin lekker innit m8! <3"
 }
-        else if (argv.scheme == new String("kkona").valueOf()) {
+        else if (userArg == new String("kkona").valueOf()) {
                 colors = ["#bf0a30","#ffffff","#002868"]; //KKona
-}       
-        else if (argv.scheme == new String("trans").valueOf()) {
-                colors = ["#5BCEFA","#F5A9B8","#FFFFFF","#F5A9B8","#5BCEFA"]; //KKona
+                consoleColor1 = ("\x1b[91m%s\x1b[0m");
+		consoleColor2 = ("\x1b[94m%s\x1b[0m");
+		specialMsg = "Hell yea, bruther! <3";
 }
         else {
                 colors = ["#5BCEFA","#F5A9B8","#FFFFFF","#F5A9B8","#5BCEFA"]; // Trans Pride
+		pog = 1;
+}
+
+if (pog == 0) {
+	console.log(consoleColor1,"Using " + userArg + " color scheme...");
+        console.log(consoleColor2,specialMsg);
+}
+	else {
+		console.log("\x1b[36m%s\x1b[0m","Enjoy!!");
+                console.log("\x1b[95m%s\x1b[0m","<3");
 }
 
 let current = 0;
