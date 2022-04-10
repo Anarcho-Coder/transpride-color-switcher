@@ -72,6 +72,12 @@ if (userArg == new String("rainbow").valueOf()) {
 		consoleColor2 = ("\x1b[94m%s\x1b[0m");
 		specialMsg = "Hell yea, bruther! <3";
 }
+	else if (argv.scheme == new String("turkey").valueOf()) {
+                colors = ["#E30A17","#FFFFFF"] //Turkish
+		consoleColor1 = ("\x1b[91m%s\x1b[0m");
+		consoleColor2 = ("\x1b[37m%s\x1b[0m");
+		specialMsg = "Turk var mi? <3";
+}
 //--PLACE ANY COLORS YOU WANT HERE USING THE FORMAT BELOW--
 	//else if (userArg == new String("YOUR_COLOR_SCHEME_NAME").valueOf()) {
 		//colors = [YOUR_COLORS_HERE];
