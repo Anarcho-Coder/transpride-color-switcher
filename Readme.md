@@ -36,17 +36,29 @@ Install node dependencies
     $ npm i tmi.js
     $ npm i yargs
     
+ 
  Edit the auth.js file with any text editor (save after)
-    - Windows -> notepad is fine
-    - Linux -> $ nano auth.js -> (edit) -> Ctrl + O
-    - MacOS -> $ vim auth.js OR use right click and use TextEdit
+   - Windows -> notepad is fine
+   - Linux -> $ nano auth.js -> (edit) -> Ctrl + O
+   - MacOS -> $ vim auth.js OR right-click and use TextEdit
     
-    From there replace 
+
+
+From there replace the username field with your username, leaving the quotes.
+    
     const BOT_NAME = "USERNAME_HERE"; 
-    with your username, leaving the quotes.
-    And 
+    
+    
+And the auth token field with the auth token from https://twitchapps.com/tmi/
+    
     const TMI_OAUTH = "AUTH_KEY_HERE"; 
-    with the auth token from https://twitchapps.com/tmi/
+    
+   
+Finally, stay in that folder, and run from your shell using:
+   
+   $ npm start
+OR
+   $ node index.js
 
 --------------------
 Now for the fun bit
