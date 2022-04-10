@@ -81,7 +81,13 @@ if (userArg == new String("rainbow").valueOf()) {
 		consoleColor2 = ("\x1b[94m%s\x1b[0m");
 		specialMsg = "Hell yea, bruther! <3";
 }
-        else {
+//--PLACE ANY COLORS YOU WANT HERE USING THE FORMAT BELOW--
+	//else if (userArg == new String("YOUR_COLOR_SCHEME_NAME").valueOf()) {
+		//colors = [YOUR_COLORS_HERE];
+//}
+//--MAKE SURE TO REMOVE THE FORWARD SLASHES ON THE CODE, NOT THESE COMMENTS--
+        
+	else {
                 colors = ["#5BCEFA","#F5A9B8","#FFFFFF","#F5A9B8","#5BCEFA"]; // Trans Pride
 		pog = 1;
 }
