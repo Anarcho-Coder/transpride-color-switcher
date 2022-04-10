@@ -9,7 +9,7 @@ Get Node.js: https://nodejs.org/en/ (when installing remember to allowing the se
                        $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
     - fedora -> $ sudo yum install nodejs
     - arch -> You're 1337 you don't need README
-
+       
 $ symbol means this is a terminal command, dont write the $
 
 Clone this repo:
@@ -17,7 +17,7 @@ Clone this repo:
     Linux - Install Git (ubuntu/debian $ sudo apt install git, fedora $ sudo yum install git)
           - $ git clone https://github.com/Anarcho-Coder/transpride-color-switcher.git
           
-Windows - Github desktop https://desktop.github.com/
+    Windows - Github desktop https://desktop.github.com/
     
 ![image](https://user-images.githubusercontent.com/103317937/162592385-cf7e5800-2842-4b1c-8e97-4dba81e2b116.png)
 
@@ -38,8 +38,11 @@ Install node dependencies
     
  Edit the auth.js file with any text editor (save after)
     - Windows -> notepad is fine
-    
     - Linux -> $ nano auth.js -> (edit) -> Ctrl + O
+    - MacOS -> $ vim auth.js OR use right click and use TextEdit
+    
+    From there replace const BOT_NAME = "USERNAME_HERE"; with your username, leaving the quotes.
+    And const TMI_OAUTH = "AUTH_KEY_HERE"; with the auth token from https://twitchapps.com/tmi/
 
 --------------------
 Now for the fun bit
@@ -59,35 +62,35 @@ else if (argv.scheme == new String("grey").valueOf()) {
 }
 
 The script can then be run e.g. below, and will use the hex colors supplied within the brackets; 
+Some colors will not show up on twitch, as dark colors are clipped to more colorful versions of that color. 
 
 ---------------------------------------
 $ node index.js --scheme="grey" 
 ---------------------------------------
-List of current schemes, trans is the default
-- trans
+List of current schemes, trans pride flag is the default
 - rainbow
 - grey
 - ukraine
-- sa
+- sa (south africa)
 - kkona
 
-Some colors will not show up on twitch, as dark colors are clipped to more colorful versions of that color. If you do not have Twitch Prime or Turbo, you will need to use color names such as the following standard user colors below.
+If you do not have Twitch Prime or Turbo, you will need to use color names in the place of hex values such as the following standard user colors below.
 
 - Blue
 - BlueViolet
 - CadetBlue
-- Chocolate #c96b28
-- Coral #ff7f4e
-- DodgerBlue #359bf1
-- Firebrick #b22222
+- Chocolate (#c96b28)
+- Coral (#ff7f4e)
+- DodgerBlue (#359bf1)
+- Firebrick (#b22222)
 - GoldenRod
 - Green
-- HotPink #ff69b4
-- OrangeRed #ff581b
+- HotPink (#ff69b4)
+- OrangeRed (#ff581b)
 - Red
 - SeaGreen
-- SpringGreen #00ff7f
-- YellowGreen #b5ff00
+- SpringGreen (#00ff7f)
+- YellowGreen (#b5ff00)
 
 Adding your own channel
 -----------------------------------------------------
