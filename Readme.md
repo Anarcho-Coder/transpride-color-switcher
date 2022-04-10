@@ -41,8 +41,12 @@ Install node dependencies
     - Linux -> $ nano auth.js -> (edit) -> Ctrl + O
     - MacOS -> $ vim auth.js OR use right click and use TextEdit
     
-    From there replace const BOT_NAME = "USERNAME_HERE"; with your username, leaving the quotes.
-    And const TMI_OAUTH = "AUTH_KEY_HERE"; with the auth token from https://twitchapps.com/tmi/
+    From there replace 
+    const BOT_NAME = "USERNAME_HERE"; 
+    with your username, leaving the quotes.
+    And 
+    const TMI_OAUTH = "AUTH_KEY_HERE"; 
+    with the auth token from https://twitchapps.com/tmi/
 
 --------------------
 Now for the fun bit
