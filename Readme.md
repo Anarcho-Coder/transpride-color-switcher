@@ -108,4 +108,44 @@ If you do not have Twitch Prime or Turbo, you will need to use color names in th
 - SpringGreen (#00ff7f)
 - YellowGreen (#b5ff00)
 
+
+-----------------------------------------------------
+-Adding your own channels
+In channels.js, change this
+
+channels: [
+        "SlowQueer",
+        "HasanAbi",
+        "AzureMako",
+        "JoanAtoms",
+        "ThoughtSlime",
+        "MafiaJinx",
+        "Keffals",
+        "adi_dev",
+        "hasansecurityguard",
+        "grfnn",
+        "dbutters",
+        "lithium_flowerhd"
+    ]
+
+to 
+
+channels: [
+        "SlowQueer",
+        "HasanAbi",
+        "AzureMako",
+        "JoanAtoms",
+        "ThoughtSlime",
+        "MafiaJinx",
+        "Keffals",
+        "adi_dev",
+        "hasansecurityguard",
+        "grfnn",
+        "dbutters",
+        "lithium_flowerhd",
+        "your_username_here"
+    ]
+
+remembering to keep the username in "quotation marks" and adding a comma , after every new entry except the final one. 
+
 Thank you for using! Hope you enjoy and feel free to leave any issues here.
