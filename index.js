@@ -3,6 +3,10 @@ const {
     BOT_NAME,
     TMI_OAUTH
 } = require("./auth.js");
+
+//Pull channels from seperate file
+const {CHANNELS} = require("./channels.js");
+
 // add reference to the TMI library
 const TMI = require('tmi.js');
 //use yargs to pass in color schemes on run
@@ -18,20 +22,7 @@ const TMI_OPTIONS = {
         username: BOT_NAME,
         password: TMI_OAUTH
     },
-    channels: [
-        "SlowQueer",
-        "HasanAbi",
-        "AzureMako",
-        "JoanAtoms",
-        "ThoughtSlime",
-        "MafiaJinx",
-        "Keffals",
-        "adi_dev",
-        "hasansecurityguard",
-        "grfnn",
-        "dbutters",
-        "lithium_flowerhd"
-    ]
+    channels : CHANNELS
 }
 
 let userArg;
