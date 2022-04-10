@@ -110,7 +110,9 @@ If you do not have Twitch Prime or Turbo, you will need to use color names in th
 
 
 -----------------------------------------------------
--Adding your own channels
+
+-Adding your own channel
+
 In channels.js, change this
 
 channels: [
